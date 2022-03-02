@@ -30,6 +30,7 @@ int main()
     {
         printf("%d элемент => ", i);
         scanf("%d", &massive[i]);
+        if (massive[i] < 0) massive[i] = massive[i] * (-1);
     }
     printf("Двоичные числа:\n");
     for (i = 0; i < j; i++)
